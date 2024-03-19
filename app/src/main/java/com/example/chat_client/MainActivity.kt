@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         //настройка панели инструментов и кнопки назад
         //1.ссылка на контроллер навигации из хоста навигации
-        //Используем этот код, потому что вызов findNavController() из метода onCreate() активности может завершиться неудачей.
+        //Используем этот код, потому что вызов findNavController() из метода onCreate() активности
         val navHostFragment = supportFragmentManager
             .findFragmentById(R.id.nav_host_fragment) as NavHostFragment
         val navController = navHostFragment.navController
